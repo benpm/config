@@ -10,3 +10,4 @@ cd $( dirname "${BASH_SOURCE[0]}" )
 git pull
 cp -urv ./config/* "$HOME/.config/"
 cp -urv ./home/.zshrc "$HOME/"
+sudo cp -urv gnome-control-center/* "/usr/share/gnome-control-center/"

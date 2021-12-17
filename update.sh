@@ -20,3 +20,10 @@ while IFS= read -r line; do
     cp -uv "$HOME/$line" "$line"
 done <<< `find . -type f`;
 popd
+
+# Copy gnome-control-center files
+pushd gnome-control-center
+while IFS= read -r line; do
+    cp -uv "/usr/share/gnome-control-center/$line" "$line"
+done <<< `find . -type f`;
+popd
