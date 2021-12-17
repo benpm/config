@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
-echo $BASH_SOURCE
+cd $( dirname "${BASH_SOURCE[0]}" )
 
 ###############################################################################
 # update.sh | Update the saved config files
@@ -15,7 +15,7 @@ done <<< `find . -type f`;
 popd
 
 # Copy home files
-pushd 
+pushd home
 while IFS= read -r line; do
     cp -uv "$HOME/$line" "$line"
 done <<< `find . -type f`;

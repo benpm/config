@@ -1,2 +1,2 @@
 # config
-Configurations for various things
+Configurations for various things.
