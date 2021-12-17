@@ -1,0 +1,8 @@
+Threshold = 30
+DisplayMonitorSources = false
+EnableUpdates = true
+GuiltTripped = false
+FilterInput = true
+FilterOutput = false
+LastUsedInput = "alsa_input.usb-Kingston_HyperX_Cloud_Flight_Wireless_Headset-00.mono-fallback"
+LastUsedOutput = ""

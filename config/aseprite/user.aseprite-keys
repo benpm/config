@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<keyboard version="1">
+    <commands>
+        <key command="PasteText" shortcut="T" removed="true" />
+        <key command="NewFrameTag" shortcut="T" />
+        <key command="Rotate" shortcut="R">
+            <param name="angle" value="90" />
+            <param name="target" value="mask" />
+        </key>
+    </commands>
+    <tools>
+        <key tool="hand" shortcut="H" removed="true" />
+        <key tool="blur" shortcut="R" removed="true" />
+        <key tool="jumble" shortcut="R" removed="true" />
+    </tools>
+    <quicktools />
+    <actions />
+    <wheel />
+</keyboard>
