@@ -8,5 +8,5 @@ cd $( dirname "${BASH_SOURCE[0]}" )
 ###############################################################################
 
 git pull
-cp -urv config/* "$HOME/.config/"
-cp -urv home/* "$HOME/"
+cp -urv ./config/* "$HOME/.config/"
+cp -urv ./home/.zshrc "$HOME/"
