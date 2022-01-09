@@ -4,7 +4,7 @@ set -e
 cd $( dirname "${BASH_SOURCE[0]}" )
 
 ###############################################################################
-# update.sh | Update the saved config files
+# update.sh | Update the saved config files in this repo
 ###############################################################################
 
 # Copy .config files
