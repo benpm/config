@@ -2,10 +2,17 @@
 <keyboard version="1">
     <commands>
         <key command="PasteText" shortcut="T" removed="true" />
+        <key command="ShowOnionSkin" shortcut="F3" removed="true" />
         <key command="NewFrameTag" shortcut="T" />
         <key command="Rotate" shortcut="R">
             <param name="angle" value="90" />
             <param name="target" value="mask" />
+        </key>
+        <key command="SelectPaletteColors" shortcut="Alt+Shift+U">
+            <param name="modifier" value="unused_tiles" />
+        </key>
+        <key command="RunScript" shortcut="F3">
+            <param name="filename" value="/home/ben/.config/aseprite/scripts/tileset_sort.lua" />
         </key>
     </commands>
     <tools>

@@ -53,6 +53,7 @@ application/pdf=FoxitReader.desktop
 application/ppdf=FoxitReader.desktop
 application/xfdf=FoxitReader.desktop
 application/fdf=FoxitReader.desktop
+x-scheme-handler/discord-927661481636536371=discord-927661481636536371.desktop
 
 [Added Associations]
 x-scheme-handler/http=opera.desktop;vivaldi-stable.desktop;
@@ -105,3 +106,4 @@ audio/x-wav=vlc.desktop;
 audio/mpeg=vlc.desktop;
 application/pdf=org.gnome.Evince.desktop;
 application/x-desktop=sublime_text.desktop;
+application/json=code.desktop;sublime_text.desktop;

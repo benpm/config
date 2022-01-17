@@ -4,5 +4,7 @@
 (aspect-numerator 316)
 (fixed-rule-active yes)
 (overridden-fixed-aspect yes)
+(foreground (color-rgb 0.87058824300765991 0.85882353782653809 0.81176471710205078))
+(pattern "Pine")
 
 # end of gimp-crop-tool options

@@ -3,10 +3,9 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpTransformGridOptions"
-        (tool "gimp-unified-transform-tool")
-        (grid-type center-lines))
-    (use-fg-bg yes)
+    (tool-options "GimpRectangleSelectOptions"
+        (tool "gimp-rect-select-tool"))
+    (use-fg-bg no)
     (use-opacity-paint-mode no)
     (use-brush no)
     (use-dynamics no)
@@ -27,7 +26,8 @@
 (GimpDeviceInfo "AONE Varmilo Keyboard"
     (name "AONE Varmilo Keyboard")
     (tool-options "GimpCropOptions"
-        (tool "gimp-crop-tool"))
+        (tool "gimp-crop-tool")
+        (pattern "Pine"))
     (use-fg-bg no)
     (use-opacity-paint-mode no)
     (use-brush no)
@@ -49,7 +49,8 @@
 (GimpDeviceInfo "Logitech G305"
     (name "Logitech G305")
     (tool-options "GimpCropOptions"
-        (tool "gimp-crop-tool"))
+        (tool "gimp-crop-tool")
+        (pattern "Pine"))
     (use-fg-bg no)
     (use-opacity-paint-mode no)
     (use-brush no)
@@ -72,7 +73,8 @@
     (icon-name "gimp-cursor")
     (name "Virtual core XTEST pointer")
     (tool-options "GimpCropOptions"
-        (tool "gimp-crop-tool"))
+        (tool "gimp-crop-tool")
+        (pattern "Pine"))
     (use-fg-bg no)
     (use-opacity-paint-mode no)
     (use-brush no)
